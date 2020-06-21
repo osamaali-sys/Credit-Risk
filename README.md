@@ -22,8 +22,8 @@ First we look at the ENSEMBLE learner to identify and catching fraudulant credit
   
   | Positive  | Negative |
 | ------------- | ------------- |
-| 93  | 8  |
-| 983  | 16121  |
+| 93            | 8             |
+| 983           | 16121         |
 
    
 ##### Classification Report
@@ -53,21 +53,17 @@ Next we look at Resampling method on the same dataset
 
 ##### Confusion Matrix
 
-   73,    28
-  7036, 10068
+ |  73, |   28|
+  |7036| 10068|
 
 ##### Classification Report
 
-|              | pre         |Second Header |Second Header |Second Header |Second Header |Second Header |Second Header |
+|              | pre           |rec            |spe              |f1           |geo |iba |sup |
 | ------------- | ------------- |------------- | ------------- |------------- | ------------- |------------- | ------------- |
-| Content Cell  | Content Cell  || Content Cell  | Content Cell  || Content Cell  | Content Cell  || Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  || Content Cell  | Content Cell  || Content Cell  | Content Cell  || Content Cell  | Content Cell  |
-                   pre       rec       spe        f1       geo       iba       sup
+|  high_risk     |  0.01    |  0.72    |  0.59    |  0.02   |   0.65 |     0.43  |     101|
+ |  low_risk   |    1.00   |   0.59   |   0.72   |   0.74   |   0.65  |    0.42  |   17104|
 
-  high_risk       0.01      0.72      0.59      0.02      0.65      0.43       101
-   low_risk       1.00      0.59      0.72      0.74      0.65      0.42     17104
-
-avg / total       0.99      0.59      0.72      0.74      0.65      0.42     17205
+|avg / total  |     0.99  |    0.59   |   0.72   |   0.74  |    0.65   |   0.42  |   17205|
 
 ### Recommendation : ENSEMBLE LEARNING
 
