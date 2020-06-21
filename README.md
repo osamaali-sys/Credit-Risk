@@ -52,7 +52,8 @@ Next we look at Resampling method on the same dataset
 0.6557032574164807
 
 ##### Confusion Matrix
-
+|Positive| Negative|
+|-------------|-------------|
  |  73, |   28|
   |7036| 10068|
 
@@ -62,7 +63,6 @@ Next we look at Resampling method on the same dataset
 | ------------- | ------------- |------------- | ------------- |------------- | ------------- |------------- | ------------- |
 |  high_risk     |  0.01    |  0.72    |  0.59    |  0.02   |   0.65 |     0.43  |     101|
  |  low_risk   |    1.00   |   0.59   |   0.72   |   0.74   |   0.65  |    0.42  |   17104|
-
 |avg / total  |     0.99  |    0.59   |   0.72   |   0.74  |    0.65   |   0.42  |   17205|
 
 ### Recommendation : ENSEMBLE LEARNING
