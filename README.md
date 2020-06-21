@@ -65,8 +65,10 @@ Next we look at Resampling method on the same dataset
  |  low_risk   |    1.00   |   0.59   |   0.72   |   0.74   |   0.65  |    0.42  |   17104|
 |avg / total  |     0.99  |    0.59   |   0.72   |   0.74  |    0.65   |   0.42  |   17205|
 
-### Recommendation : ENSEMBLE LEARNING
+### Recommendation : NONE
 
-With the available data set and the learning capabilities of the two learning methods we use, ENSEMBLE yields better results than that of RESAMPLE. The ability to detect (RECALL) high risk is better. Also our F1 score which is the weighted average of the true positive rate is better is ENSEMBLE
+With the available data set and the learning capabilities of the two learning methods we use, ENSEMBLE yields better results than that of RESAMPLE. The ability to detect (RECALL) high risk is better. Also our F1 score which is the weighted average of the true positive rate is better is ENSEMBLE.
+
+However the overall satisfactory level of High-risk Precision is too low to consider a viable option. More algorithms need to be explored
 
 
