@@ -27,12 +27,12 @@ First we look at the ENSEMBLE learner to identify and catching fraudulant credit
 
    
 ##### Classification Report
-                  pre       rec       spe        f1       geo       iba       sup
 
-  high_risk       0.09      0.92      0.94      0.16      0.93      0.87       101
-   low_risk       1.00      0.94      0.92      0.97      0.93      0.87     17104
-
-avg / total       0.99      0.94      0.92      0.97      0.93      0.87     17205
+|              | pre           |rec            |spe              |f1           |geo |iba |sup |
+| ------------- | ------------- |------------- | ------------- |------------- | ------------- |------------- | ------------- |
+|  high_risk    |   0.09   |   0.92   |   0.94   |   0.16  |    0.93   |   0.87   |    101|
+ |  low_risk    |   1.00   |   0.94   |   0.92  |    0.97   |   0.93   |   0.87   |  17104|
+|avg / total    |   0.99   |   0.94    |  0.92  |    0.97  |    0.93  |    0.87  |   17205|
 
 ##### Obersvation
 
